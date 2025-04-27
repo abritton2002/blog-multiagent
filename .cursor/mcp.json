@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "crew_research": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/alexbritton/Desktop/ai-solutions/ai-blog-multiagent",
+        "run",
+        "server.py"
+      ],
+      "env": {
+        "LINKUP_API_KEY": "d833afc5-4de8-4478-9503-a2dcade0e029"
+      }
+    }
+  }
+} 

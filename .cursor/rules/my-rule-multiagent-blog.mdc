@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+1. Environment Setup
+Rule: Ensure Python 3.11+ is installed before proceeding with any other installations.
+Rule: Use uv to install streamlit and crewai. Use brew or equivalent for ollama.
+Rule: Verify installations by running version checks for each tool.
+2. Linkup API Setup
+Rule: Clone the Linkup repository and follow the Docker setup instructions precisely.
+Rule: Ensure the Linkup API is running locally and accessible at http://localhost:8000.
+3. Local LLMs with Ollama
+Rule: Download and run the deepseek and llama3 models using Ollama.
+Rule: Confirm that the models are running correctly before proceeding to agent development.
+4. Agent Development
+Rule: Develop agents in the /agents directory using the crewai library.
+Rule: Each agent should have a clear role, goal, backstory, and model defined.
+Rule: Use the provided prompts in /prompts for the Writer Agent.
+5. Utility Scripts
+Rule: Implement utility scripts in the /utils directory.
+Rule: Ensure the linkup_api.py script can successfully query the Linkup API.
+Rule: The formatting_helpers.py should format the blog output correctly.
+6. Streamlit App Development
+Rule: Develop the Streamlit app in the /streamlit_app directory.
+Rule: The app should have a user-friendly interface for inputting blog topics and generating blogs.
+Rule: Ensure the app can download the generated blog as a .md file.
+7. Testing and Validation
+Rule: Test the entire workflow from topic input to blog download.
+Rule: Validate the output for accuracy and adherence to the specified style.
+8. Documentation and Maintenance
+Rule: Maintain a README.md with clear instructions for setup and usage.
+Rule: Keep the requirements.txt updated with all necessary dependencies.
+9. Version Control and Collaboration
+Rule: Use a version control system (e.g., Git) to track changes and collaborate.
+Rule: Commit changes with clear messages and follow a branching strategy for development.
+
+
